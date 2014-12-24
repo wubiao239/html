@@ -1,0 +1,1301 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-style: normal;
+	background-color: #606060;
+	font-size: 14px;
+	color: #606060;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, font, img, blockquote, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	letter-spacing: 0;
+}
+.clear:before, .clear:after, .clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+a {
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+	max-width: 100%;
+}
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+hr {
+	display: block;
+	margin: 1.313em 0;
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,0.15);
+	border-bottom: 1px solid transparent;
+}
+.clear, .clearfix, .clearall {
+	clear: both;
+}
+#zenith_main_container {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.zenith_main_container_wrap {
+	margin: 0 auto;
+	background: #fff;
+}
+.zenith_logo_section_bg {
+	background: #222;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.logo_section_top_border {
+	width: 100%;
+	position: absolute;
+	height: 5px;
+	background: rgba(0,0,0,0.2);
+}
+.zenith_container, #header_wrap, .top_section_wrap, .title_header_wrap {
+	width: 940px;
+	margin: 0 auto;
+	display: block;
+	height: 100%;
+}
+.zenith_logo_section {
+	margin: 0 auto;
+}
+.logo_section {
+	width: auto;
+	min-height: 126px;
+	display: block;
+	position: relative;
+}
+.logo_image {
+	float: left;
+	display: block;
+	padding: 20px 0;
+}
+.swm_woo_cart_menu a, ul.logo_section_list li a {
+font-size: 13px;
+color: #ffffff;
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.fa-phone:before {
+	content: "\f095";
+}
+.fa-envelope:before {
+	content: "\f0e0";
+}
+.fa-home:before {
+	content: "\f015";
+}
+.fa-print:before {
+	content: "\f02f";
+}
+.fa-globe:before {
+	content: "\f0ac";
+}
+.fa-check:before {
+	content: "\f00c";
+}
+.logo_section_menu {
+	float: right;
+	margin-top: 52px;
+}
+.fa-gift:before {
+ content: "\f06b"; 
+}
+.logo_section_menu ul li i, span.donate_btn a i {
+	padding-right: 8px;
+}
+.zenith_container ul {
+	list-style: disc outside none;
+}
+.logo_section_menu ul {
+	margin: 0;
+	float: left;
+	display: inline-block;
+}
+.zenith_container .logo_section_menu ul li {
+	float: left;
+	display: inline-block;
+	padding: 0 0 10px 20px;
+	margin: 0;
+}
+.zenith_container li {
+	margin-left: 1em;
+	padding: 3px 0px;
+}
+.zenith_top_menu_section {
+	min-height: 60px;
+	position: relative;
+	margin: 0 auto;
+}
+.zenith_top_menu_section {
+	background-color: #da5455;
+}
+.zenith_top_menu_section .zenith_container {
+	position: relative;
+}
+
+.zenith_container {
+	position: relative;
+}
+.theme_social_icons {
+	float: left;
+	z-index: 5;
+	min-height: 24px;
+}
+.theme_social_icons ul {
+	float: left;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+.theme_social_icons ul li:first-child {
+	margin-left: 0;
+}
+.theme_social_icons ul li {
+	float: left;
+	list-style: none;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 6px;
+}
+.theme_social_icons ul li a:hover {
+	opacity: 1;
+}
+.theme_social_icons ul li a {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-size: 24px 24px !important;
+	opacity: 0.5;
+}
+.theme_social_icons ul li a.zenith_twitter {
+	background: transparent url(../images/twitter.png) no-repeat 0 0;
+}
+.theme_social_icons ul li a.zenith_facebook {
+	background: transparent url(../images/facebook.png) no-repeat 0 0;
+}
+.theme_social_icons ul li a.zenith_vimeo {
+	background: transparent url(../images/vimeo.png) no-repeat 0 0;
+}
+.theme_social_icons ul li a.zenith_flickr {
+	background: transparent url(../images/flickr.png) no-repeat 0 0;
+}
+.theme_social_icons ul li a.zenith_linkedin {
+	background: transparent url(../images/linkedin.png) no-repeat 0 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+nav.zenith-top-menu {
+	float: right;
+}
+#mobile_nav_button {
+	display: none;
+	color: white;
+	cursor: pointer;
+	height: 41px;
+	width: 41px;
+	text-align: center;
+	right: 0;
+	left: auto;
+	margin: 0;
+	top: 0;
+	float: right;
+	border-radius: 3px;
+}
+#mobile_nav_button i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+ul.top_nav {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+ul.top_nav > li:hover, ul.top_nav > li.current_page_item, ul.top_nav > li.current-menu-item, ul.top_nav > li.current-menu-parent, ul.top_nav > li.current-category-ancestor, ul.top_nav > li.current-post-ancestor, ul.top_nav > li.current-page-ancestor, ul.top_nav > li.current-menu-ancestor {
+	background: rgba(0,0,0,0.1);
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+ul.top_nav li {
+	position: relative;
+}
+ul.top_nav > li {
+	display: inline-block;
+	padding: 20px;
+	margin: 0 0 0 1px;
+	line-height: 20px;
+	float: left;
+}
+nav ul li {
+	display: inline;
+	list-style: none;
+}
+ul.top_nav > li > a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 18px 0 20px 0;
+}
+ul.top_nav > li > a {
+	font-size: 14px;
+	color: #ffffff;
+}
+ul.top_nav > li > a {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-style: normal;
+}
+.topmenu_border {
+	width: 100%;
+	height: 1px;
+	display: block;
+	position: absolute;
+	background: rgba(0,0,0,0.08);
+	bottom: 0;
+	left: 0;
+}
+.zenith_header_slider {
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	clear: both;
+}
+.fullwidthbanner-container {
+	width: 100%;
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+.fullwidthbanner-container .fullwidthabanner {
+	width: 100%;
+	position: relative;
+}
+.zenith_header_border {
+	position: absolute;
+	height: 4px;
+	background: rgba(0,0,0,0.1);
+	width: 100%;
+	display: block;
+}
+#zenith_page_container {
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+#zenith_page_container {
+	padding: 50px 0 80px 0;
+}
+.zenith_column {
+	display: block;
+	float: left;
+	width: 100%;
+	min-height: 20px;
+	margin-left: 2.564102564102564%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: auto;
+}
+.zenith_two_third, .two_third {
+	width: 65.81196581196582%;
+}
+.layout-full-width .zenith_custom_two_third {
+	margin: 0;
+	float: none;
+	width: 100%;
+}
+.te_venue_map_title, .zenith_evt_title, .portfolio_title, .zenith_donor_name span.zenith_d_name, .zenith_dot_heading, .zenith_section_title, .zenith_fancy_heading {
+	font-family: Open Sans;
+}
+.dot_h_left {
+	text-align: left;
+}
+.zenith_dot_heading {
+	height: auto;
+	margin: 0 0 20px;
+	font-weight: 400;
+	color: #222;
+	-webkit-font-smoothing: antialiased;
+	background: url("../images/heading_style2_bg.png") center repeat-x;
+}
+.dot_h_left div.heading_text {
+	padding: 0 15px 0 0;
+}
+.zenith_dot_heading div.heading_text {
+	display: inline-block;
+	background: #fff;
+}
+.bold, b, strong {
+	font-weight: bold;
+}
+.zenith_sermons {
+	display: block;
+	clear: both;
+}
+.recent_sermons_sc .zenith_sermons_item {
+	padding-left: 245px;
+}
+.zenith_sermons_item {
+	width: 100%;
+	margin: 0 42px 42px 0;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+.recent_sermons_sc .zenith_sermons_top {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zenith_sermons_top {
+	margin-right: 4px;
+	display: block;
+	float: left;
+}
+.zenith_custom_two_third {
+	width: 70%;
+	margin-left: 0;
+	float: left;
+}
+/********sidebar********/
+.layout-sidebar-right #sidebar {
+	float: right;
+	padding-left: 4%;
+}
+#sidebar {
+	width: 30%;
+	display: block;
+}
+
+.zenith_widget_box {
+	display: block;
+	background: #fff;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.zenith_widget_content {
+	width: 100%;
+	border: 1px solid #ececec;
+	display: block;
+	border-radius: 3px;
+	padding: 15px 20px;
+}
+.sidebar .zenith_widget_box h3 {
+	margin: -13px -18px 20px -18px;
+	background: #f1f1f1;
+	display: block;
+	border-radius: 3px;
+	min-height: 40px;
+	line-height: 30px;
+	padding: 5px 20px;
+}
+
+.sidebar .zenith_widget_content > ul, .sidebar .zenith_widget_content ul.menu {
+	list-style: none;
+	margin: -15px -20px;
+}
+.sidebar ul li {
+	
+	padding-left: 15px;
+}
+.sidebar ul li li{
+	
+	border-bottom: none;
+	list-style:none;
+	
+}
+.sidebar ul ul{
+	display:none;
+	
+}
+
+.sidebar a {
+	font-size: 13px;
+	color: #606060;
+}
+.zenith_special_offer {
+	margin-bottom: 20px;
+	display: table;
+	background: #333;
+	width: 100%;
+	border-radius: 3px 5px 5px 3px;
+}
+.offer_content {
+	display: table-cell;
+	width: 70%;
+}
+.offer_content a {
+	padding: 20px;
+	display: block;
+}
+.offer_title {
+	font-size: 20px;
+	display: block;
+	font-weight: bold;
+}
+.offer_desc {
+	font-size: 13px;
+	display: block;
+	line-height: normal;
+	margin-top: 5px;
+}
+.offer_icon {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 30%;
+	background: #ececec;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-radius: 0 3px 3px 0;
+}
+.offer_icon a {
+	padding: 20px;
+	display: block;
+}
+.offer_icon i {
+	font-size: 45px;
+	color: #bbb;
+}
+
+.zenith_sermons_img {
+	float: left;
+	display: inline-block;
+}
+.zenith_sermons_img img {
+	border-radius: 3px;
+	width: 215px;
+	height: 214px;
+}
+img, img a, a img, :link img, :visited img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+	image-rendering: optimizeQuality;
+}
+.recent_sermons_sc .zenith_sermons_content {
+	width: 100%;
+}
+.zenith_sermons_content {
+	float: left;
+	display: inline-block;
+	border: 1px solid #ececec;
+	border-radius: 3px;
+	width: 772px;
+	min-height: 141px;
+}
+.zenith_sermons_title h2 {
+	border-bottom: 1px solid #ececec;
+	padding: 10px 20px 10px 20px;
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 24px;
+	color: #222222;
+}
+h1, h2, h3, h4, h5, h6, .pf_image_caption .img_title {
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-style: normal;
+}
+.zenith_sermons_title h2 a {
+	text-decoration: none;
+	color: #222;
+}
+.zenith_sermons_text {
+	padding: 15px 20px 5px 20px;
+}
+p {
+	margin: 0 0 0.85em 0;
+}
+a.p_continue_reading {
+	text-decoration: none;
+	margin-top: 5px;
+	display: block;
+}
+a.p_continue_reading, .zenith_portfolio_text a.p_continue_reading {
+	color: #da5455;
+}
+.fa-angle-right:before {
+	content: "\f105";
+}
+.toggle_box, .toggle_box_accordion {
+	margin: 0 0 8px 0;
+}
+.toggle_box .ui-state-active, .toggle_box_accordion .ui-state-active, .toggle_box:hover .toggle_box_title, .toggle_box_accordion:hover .toggle_box_title_accordion {
+	background: #da5455;
+}
+.toggle_box_title.ui-state-active, .toggle_box_title_accordion.ui-state-active {
+	margin-bottom: 4px;
+}
+.toggle_box .toggle_box_title, .toggle_box_accordion .toggle_box_title_accordion {
+	display: block;
+	background: #ededed;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-radius: 3px;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px 10px 12px 0;
+	box-shadow: none;
+}
+.ui-state-active {
+	color: #363636;
+}
+span.title_icon {
+	position: absolute;
+	width: 50px;
+	display: inline-block;
+	padding-top: 2px;
+	text-align: center;
+	font-size: 19px;
+	color: #aaa;
+	border-radius: 3px 0 0 3px;
+	height: 100%;
+}
+.fa-comments:before {
+	content: "\f086";
+}
+span.title_text {
+	margin: -12px 10px -12px 50px;
+	padding: 13px 25px 11px 15px;
+	border-left: 1px solid rgba(0,0,0,0.05);
+	display: block;
+}
+.toggle_box i.openclose, .toggle_box_accordion i.openclose {
+	width: 21px;
+	float: right;
+	font-size: 14px;
+	margin-top: 8px;
+	color: #aaa;
+	position: absolute;
+	right: 7px;
+	top: 9px;
+}
+.fa-minus-square-o:before {
+	content: "\f147";
+}
+.toggle_box_inner {
+	padding: 20px 20px 15px 20px;
+	border: 1px solid #ececec;
+	border-radius: 3px;
+}
+.round3, .zenith_button.round {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.zenith_gap {
+	border: transparent;
+}
+.zenith_latest_events {
+	margin-right: -40px;
+}
+.zenith_event_box {
+	width: 340px;
+	margin: 0 40px 40px 0;
+	float: left;
+}
+ul.tribe-events-sub-nav li a:hover, .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], #tribe-bar-form .tribe-bar-filters .tribe-bar-submit input[type=submit], .zenith_te_single_title_meta_section span.zenith_te_single_title_cost, #tribe-events .tribe-events-button:hover, .tribe-grid-header, .zenith_te_single_meta ul li span.event_bar_icon, .tribe-events-meta-group .tribe-events-single-section-title, .zenith_event_box:hover .zenith_evt_date {
+	background: #da5455;
+}
+.zenith_evt_date {
+	background: #ececec;
+	width: 106px;
+	height: 120px;
+	display: block;
+	float: left;
+	border-radius: 3px;
+	text-align: center;
+	margin-right: 4px;
+	color: #555;
+	overflow: hidden;
+}
+.toggle_box .ui-state-active, .toggle_box_accordion .ui-state-active, .toggle_box:hover .toggle_box_title, .toggle_box_accordion:hover .toggle_box_title_accordion {
+	background: #da5455;
+}
+.zenith_event_box:hover .zenith_evt_date_day {
+	padding-top: 16px;
+}
+.zenith_evt_date_day {
+	display: block;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 40px;
+	padding-top: 27px;
+	color: #555;
+	font-family: 'Open Sans', sans-serif;
+}
+.zenith_evt_date_month {
+	display: block;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.zenith_evt_date_year {
+	opacity: 0;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+}
+.zenith_breadcrumbs span, .zenith_blog_post .zenith_post_format, .zenith_blog_post, .zenith_blog_post .zenith_post_meta ul, .zenith_portfolio_box .zenith_portfolio_img_overlay, .zenith_portfolio_box .zenith_portfolio_img_hovericon, .zenith_portfolio_box .zenith_portfolio_text, .zenith_portfolio_box .zenith_portfolio_text span.subtexts, .icon_url a i.fa-link, .zenith-woo-sort-order ul.order a i, .crossfade-images .rating_container, .standard-featured-image .rating_container, .product-images .crossfade-images img, .zenith-product-price-cart a, .zenith_woo_next_prev span a:before, .woocommerce-breadcrumb span a, .zenith-featured-product-block.p_category a h3, .zenith-featured-product-block.p_category a h3 mark, input[type="text"], input[type=submit], input[type="password"], input[type="email"], input[type="tel"], input[type="url"], textarea, td.actions .coupon .input-text, .zenith-tribe-event-list-meta ul li:before, .zenith-tribe-event-list-meta ul li a.tribe-events-gmap:before, .pagination_menu a span, .img_overlay, .zenith_slider_box .flex-direction-nav a, ul.top_nav > li, .sidebar ul li:before, .zenith_event_box .zenith_evt_date, .zenith_event_box .zenith_evt_date_year, .zenith_event_box .zenith_evt_date_day, .zenith_blog_post h2, .zenith_blog_grid h2, .zenith_blog_post .zenith_post_title h1 a, .zenith_blog_post .zenith_post_title h1, .zenith_blog_post .zenith_post_title, .zenith_blog_grid .zenith_post_title, .zenith_blog_post .zenith_pf_ic, .zenith_blog_grid .zenith_pf_ic, .zenith_sermons_item .zenith_sermons_date {
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-moz-transition-property: all;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+}
+.search_section, ul li.footer_menu-setting-msg, .zenith_horizontal_menu li a.active, .zenith_horizontal_menu li a.active:hover, .zenith_horizontal_menu li.current_page_item a, .zenith_portfolio_menu li a.active, .zenith_portfolio_menu li a.active:hover, .zenith_portfolio_menu li.current_page_item a, .page-numbers span, .pagination_menu a span, .pagination_menu span, .paginate-com a, .paginate-com span.current, .page-numbers.current, .paginate-com span.current, .page-numbers.current:hover, .pagination_menu > span, .next_prev_pagination, .zenith_container .next_prev_pagination a, .next_prev_pagination a, .zenith_pagination li a.current, .zenith_pagination li a:hover.current, .woocommerce-pagination span, .zenith_woo_next_prev span a:hover:before, .product .woocommerce-tabs ul.tabs li a:hover, .product .woocommerce-tabs ul.tabs li.active a, .sidebar .widget_shopping_cart_content p.buttons a, a.add_to_cart_button, .cart-loading, .sidebar .tagcloud a:hover, .footer .tagcloud a:hover, .p_date a, .zenith_container .p_date a, .zenith_blog_post:hover .zenith_post_title h2 a, .zenith_blog_post:hover .zenith_post_title h2, .zenith_blog_post:hover .zenith_post_title h1 a, .zenith_blog_post:hover .zenith_post_title h1, .zenith_blog_grid:hover .zenith_post_title h2 a, .zenith_blog_grid:hover .zenith_post_title h2, .zenith_blog_post:hover .zenith_post_title, .zenith_blog_post:hover .zenith_pf_ic, .zenith_blog_grid:hover .zenith_post_title, .sticky.zenith_blog_post .zenith_pf_ic, ul.tribe-events-sub-nav li a:hover, body.events-single ul.tribe-events-sub-nav li a:hover, #tribe-bar-form .tribe-bar-filters .tribe-bar-submit input[type=submit], .zenith_te_single_meta ul li span.event_bar_icon, .tribe-events-meta-group .tribe-events-single-section-title, .zenith_event_box:hover .zenith_evt_date, .zenith_event_box:hover .zenith_evt_date_day, .zenith_evt_date_year, .recent_posts_square_date span.d_year, .client_position, .special_plan .pricing_title .title_text, .special_plan .pricing_button a.skin_color, .zenith_tabs ul.tab-nav li a:hover, .zenith_tabs ul.tab-nav li.ui-tabs-selected a, .toggle_box:hover i, .toggle_box:hover span.title_text, .toggle_box_accordion:hover i, .toggle_box_accordion:hover span.title_text, .toggle_box_accordion .ui-state-active i, .toggle_box_accordion .ui-state-active span.title_text, .toggle_box .ui-state-active span i.openclose, .toggle_box_accordion .ui-state-active span i.openclose, .toggle_box:hover span i.openclose, .toggle_box_accordion:hover span i.openclose, .toggle_box .ui-state-active i, .toggle_box .ui-state-active span.title_text, .zenith_dropcap.dark, .zenith_special_offer, .zenith_container .zenith_special_offer a, .zenith_container .zenith_special_offer a:hover, .footer .offer_icon i, span.donate_btn a:hover, .zenith_donor_amount, .skin_color, .special_plan .pricing_title, .p_bar_skin_color .p_bar_bg, a.zenith_button.skin_color, .zenith_search_box form input[type="submit"].button, .pricing_button a.zenith_button, .special_plan .zenith_button, button.zenith_button.skin_color, input.zenith_button[type="submit"], input[type="submit"], input[type="button"], input[type="reset"], a.button, button.button, #footer a.button, #footer button.button ul.tribe-events-sub-nav li a:hover, a.zenith_button.skin_color:hover, input.skin_color:hover, a.skin_color:hover, input[type="submit"]:hover, button[type="submit"]:hover, .zenith-product-price-cart a.button:hover, .sidebar .widget_shopping_cart_content p.buttons a:hover, .zenith_woo_cart_hover_menu p.buttons a:hover, #tribe-bar-form .tribe-bar-filters .tribe-bar-submit input[type=submit]:hover, .zenith_sermons_item:hover .zenith_sermons_date {
+	color: #ffffff;
+}
+.zenith_evt_img {
+	float: left;
+	width: 230px;
+	height: 120px;
+	display: inline-block;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.zenith_event_box:hover .zenith_evt_date_year {
+	opacity: 1;
+}
+.zenith_evt_img img, .zenith_evt_img a img, .tribe-events-list .tribe-events-event-image img {
+	width: 230px;
+	height: 120px;
+}
+.zenith_evt_contet {
+	width: 100%;
+	border: 1px solid #ececec;
+	margin-top: 4px;
+	border-radius: 3px;
+}
+.te_venue_map_title, .zenith_evt_title, .portfolio_title, .zenith_donor_name span.zenith_d_name, .zenith_dot_heading, .zenith_section_title, .zenith_fancy_heading {
+	font-family: Open Sans;
+}
+.zenith_evt_title {
+	border-bottom: 1px solid #ececec;
+	padding: 12px 15px 10px 15px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.zenith_evt_title a {
+	text-decoration: none;
+	color: #222;
+}
+h3.tribe-events-month-event-title a:hover, #tribe-events-content .tribe-events-tooltip h4, .tribe-events-list .vevent.hentry h2 a:hover, a.tribe-events-read-more, a.tribe-events-read-more:hover, ul.tribe-bar-views-list li.tribe-bar-active a span, .zenith_evt_title a:hover, .zenith_event_box:hover .zenith_evt_title a, #tribe-events a.tribe-events-ical.tribe-events-button, #tribe-events a.tribe-events-gcal.tribe-events-button {
+	color: #da5455;
+}
+.zenith_evt_desc {
+	padding: 10px 15px;
+}
+a, .primary_color a, .author_title h4 span, .zenith_portfolio_title_section a:hover {
+	color: #da5455;
+}
+.fa-angle-right:before {
+	content: "\f105";
+}
+.zenith_evt_meta_venue {
+	border-top: 1px solid #ececec;
+	padding: 5px 15px;
+	font-size: 11px;
+}
+.zenith_evt_meta_venue i {
+	padding-right: 10px;
+	font-size: 13px;
+	color: #999;
+}
+.fa-map-marker:before {
+	content: "\f041";
+}
+abbr, acronym {
+	border-bottom: 1px dotted #ccc;
+}
+.zenith_event_box span.country-name, .zenith_event_box span.postal-code, .zenith_event_box a.tribe-events-gmap, .tribe-events-list-separator-month {
+	display: none;
+}
+.zenith_promotion_box {
+	padding: 30px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	position: relative;
+	border: 1px solid #ececec;
+	border-radius: 3px;
+	margin: 10px 0;
+}
+.left, .float_left, .float-left {
+	float: left;
+}
+.zenith_promotion_box .title_text {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	font-size: 20px;
+	display: block;
+	line-height: normal;
+	font-weight: bold;
+}
+.zenith_promotion_box .sub_title {
+	font-size: 13px;
+	display: block;
+	clear: both;
+	line-height: 20px;
+	color: #888;
+	padding-top: 3px;
+	font-weight: normal;
+}
+.right, .float_right, .float-right {
+	float: right;
+}
+.skin_color, .special_plan .pricing_title, .special_plan .zenith_button, .client_position, .p_bar_skin_color .p_bar_bg, .zenith_pagination li a.current, .zenith_pagination li a:hover.current, a.zenith_button.skin_color, button.zenith_button.skin_color, input.zenith_button[type="submit"], input[type="submit"], input[type="button"], input[type="reset"], a.button, button.button, #footer a.button, #footer button.button {
+	background: #da5455;
+}
+.zenith_promotion_box a.zenith_button {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	margin-top: 4px;
+}
+.zenith_button.large {
+	font-size: 16px;
+	padding: 11px 22px;
+	line-height: 18px;
+}
+.zenith_promotion_box .zenith_button {
+	font-weight: normal;
+	border-radius: 3px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.zenith_one_third, .one_third {
+	width: 31.62393162393162%;
+}
+.first {
+	margin-left: 0;
+}
+.dot_h_left {
+	text-align: left;
+}
+.zenith_dot_heading {
+	height: auto;
+	margin: 0 0 20px;
+	font-weight: 400;
+	color: #222;
+	-webkit-font-smoothing: antialiased;
+	background: url("../images/heading_style2_bg.png") center repeat-x;
+}
+.recent_posts_square_posts ul, .recent_posts_square_posts ul li {
+	background: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	clear: both;
+}
+.recent_posts_square_posts ul li:first-child {
+	padding-top: 0;
+}
+.recent_posts_square_posts ul li {
+	clear: both;
+	min-height: 70px;
+	border-bottom: 1px solid #ececec;
+	padding: 23px 0 0 0;
+}
+.recent_posts_square_date a, .recent_posts_square_date a:hover {
+	height: 86px;
+	width: 52px;
+	float: left;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 12px;
+	border-radius: 3px;
+	overflow: hidden;
+	background: #ededed;
+	color: #666;
+	line-height: 22px;
+	text-decoration: none;
+	margin: 0;
+}
+.recent_posts_square_date span.d_month {
+	display: block;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+.recent_posts_square_date span.d_year {
+	width: 100%;
+	height: 26px;
+	display: block;
+	background: #444;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 26px;
+	border-radius: 0 0 3px 3px;
+}
+.zenith_special_offer, .zenith_tabs ul.tab-nav li a:hover, .zenith_tabs ul.tab-nav li.ui-tabs-selected a, .recent_posts_square_date span.d_year, .recent_posts_slider_excerpt span {
+	background: #da5455;
+}
+.recent_posts_square_content {
+	margin-left: 70px;
+}
+.recent_posts_square_posts ul li .grid_date {
+	margin: 8px 0 11px 0;
+}
+.recent_posts_square_posts .recent_posts_square_title {
+	margin: 0 0 2px 0;
+	padding: 0;
+	font-weight: bold;
+}
+.recent_posts_square_posts .recent_posts_square_title a {
+	font-size: 14px;
+	text-decoration: none;
+}
+.steps_with_circle ol li span, .projects_style1 a, .sm_icons ul li a, .sm_icons ul li a:hover, .recent_posts_square_title a {
+	color: #606060;
+}
+.recent_posts_square_content p {
+	margin-bottom: 0;
+	color: #888;
+}
+.recent_posts_square_posts ul li .grid_date {
+	margin: 8px 0 11px 0;
+}
+.recent_posts_square_posts ul li .grid_date span {
+	margin-right: 20px;
+}
+.recent_posts_square_posts ul li .grid_date i {
+	color: #ccc;
+	margin-right: 8px;
+}
+.fa-user:before {
+	content: "\f007";
+}
+.recent_posts_square_posts ul li .grid_date span a {
+	font-size: 11px;
+}
+.recent_posts_square_posts ul li .grid_date a {
+	color: #888;
+}
+.recent_posts_square_posts ul li .grid_date span {
+	margin-right: 20px;
+}
+.fa-comment-o:before {
+	content: "\f0e5";
+}
+.recent_posts_square_posts ul li .grid_date {
+	margin: 8px 0 11px 0;
+}
+/****************
+contact form start
+*******************************/
+form {
+	margin-bottom: 20px;
+}
+.zenith_column.first {
+	margin-left: 0;
+}
+.zenith_one_half, .one_half {
+	width: 48.71794871794872%;
+}
+span.wpcf7-form-control-wrap {
+	position: relative;
+}
+.wpcf7 .zenith_column input {
+	width: 100%;
+}
+.input-text, input[type="text"], input[type="input"], input[type="password"], input[type="email"], input[type="number"], input[type="url"], input[type="tel"], input[type="search"], textarea, select {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	border: 1px solid #e1e1e1;
+	outline: none;
+	border-radius: 0;
+	color: #777;
+	padding: 7px;
+	margin: 0 0 20px 0;
+	width: 200px;
+	max-width: 100%;
+	display: block;
+	background: #fff;
+	border-radius: 3px;
+}
+textarea {
+	min-height: 80px;
+	line-height: 1.5em;
+	width: 100%;
+}
+textarea {
+	height: auto;
+	min-height: 100px;
+	width: 100%;
+	max-width: 100%;
+	-webkit-appearance: none;
+}
+.wpcf7 input[type="submit"] {
+	border-radius: 3px;
+	font-size: 13px;
+	padding: 7px 18px;
+	line-height: 18px;
+	width: auto;
+}
+ul.the_icons li {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 25px;
+	line-height: 20px;
+}
+ul.the_icons {
+	line-height: 25px;
+	margin-left: 0;
+}
+ul.the_icons li i.fa {
+	width: 10px;
+	text-align: center;
+	width: 25px;
+	margin-left: -25px;
+	font-size: 14px;
+	text-align: left;
+}
+/****************
+contact form end
+*******************************/
+
+/********product css**************************/
+p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
+	margin-top: 1.5em;
+}
+h1, h2, h3, h4, h5, h6, .pf_image_caption .img_title {
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-style: normal;
+}
+h5 {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+ul, ol {
+	margin-bottom: 20px;
+}
+blockquote {
+	display: block;
+	border-left: 6px solid #b93a41;
+	
+	color: #888;
+	font-size: 14px;
+	text-align: left;
+	margin: 20px 0;
+	position: relative;
+	padding: 0 0 0 15px;
+}
+.product-img {
+	margin: 5px 20px 20px 0;
+	float:left;
+}
+.flexslider .slides > li {
+	display: none;
+	padding: 0;
+	margin: 0;
+	background: none;
+	list-style: none;
+	-webkit-backface-visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 100%;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.zenith_slider_box .flex-control-nav {
+	text-align: center;
+	font-size: 0;
+	right: 0;
+	margin: 0 12px 12px 0;
+	z-index: 100;
+	position: absolute;
+	margin-top: -35px;
+}
+.flex-control-nav {
+	width: auto;
+	position: absolute;
+	margin-top: -35px;
+	margin-left: 10px;
+}
+ul.flex-direction-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer {
+	font-size: 13px;
+}
+.footer, .footer a, .footer .client_name_position h5, .footer .client_name_position span, .footer .sm_icons ul li a, .footer .sm_icons ul li a:hover, .footer .widget ul li a, .footer .widget.woocommerce ul li a, .footer ul.product_list_widget li ins, .footer ul.product_list_widget li span.amount, .footer .widget_shopping_cart_content span.amount, .footer .widget_layered_nav ul li.chosen a, .footer .widget_layered_nav_filters ul li a {
+	color: #cecece;
+}
+.footer {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.footer p {
+	padding-top: 2px;
+}
+.recent_posts_slider_title {
+	margin: 15px 0;
+}
+.zenith_footer_border {
+	position: absolute;
+	background: rgba(0,0,0,0.13);
+	height: 5px;
+	width: 100%;
+	top: 0;
+}
+.zenith_footer_bg {
+	background: #2e2e2e;
+}
+.zenith_footer_bg {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.small_footer {
+	background: #da5455;
+}
+.small_footer {
+	display: block;
+	clear: both;
+	padding: 17px 0px;
+	min-height: 56px;
+	position: relative;
+	border-radius: 3px;
+	overflow: hidden;
+	margin: -28px 0 0 0;
+}
+.small_footer_content {
+	z-index: 5;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+
+.footer_left {
+	float: left;
+	padding-left: 20px;
+}
+.small_footer ul li a, .small_footer p {
+	font-size: 12px;
+	color: #ffffff;
+}
+.small_footer p {
+	margin: 0;
+}
+.footer p {
+	padding-top: 2px;
+}
+.small_footer ul li, .small_footer ul li a, .small_footer p {
+	line-height: 20px;
+}
+.small_footer ul {
+	margin: 0;
+}
+.footer ul {
+	padding: 0;
+	margin: 0;
+}
+.small_footer ul li, .small_footer ul li a, .small_footer p {
+	line-height: 20px;
+}
+.small_footer ul li {
+	display: inline-block;
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+.small_footer ul li a, .small_footer p {
+	font-size: 12px;
+	color: #ffffff;
+}
+.small_footer ul li, .small_footer ul li a, .small_footer p {
+	line-height: 20px;
+}
+.footer ul li a {
+	text-decoration: none;
+}
+ul li.current-menu-item a, ul li.current-cat a small, ul li.current-cat:hover a small {
+	font-weight: normal;
+}
+.zenith_large_footer {
+	padding: 40px 0 20px 0;
+	width: 100%;
+	display: block;
+	clear: both;
+	position: relative;
+	margin: 0 auto;
+	height: auto;
+}
+.zenith_one_fourth, .one_fourth {
+	width: 23.07692307692308%;
+}
+.footer .widget {
+	clear: both;
+	padding: 0;
+	display: block;
+}
+.footer_widget {
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+.widget_zenith_woocommerce_product_search .zenith_widget_content, .widget_zenith_search_widget .zenith_widget_content, .widget_revslider .zenith_widget_content, .footer .zenith_widget_content {
+	border: 0;
+	padding: 0;
+}
+.footer h2, .footer h3, .footer .aboutme_widget .person_name {
+	font-size: 18px;
+	color: #ffffff;
+}
+.footer_widget h3 {
+	line-height: normal;
+	margin-bottom: 20px;
+}
+.sidebar ul, .footer ul {
+	list-style: none;
+	margin: 0;
+}
+.zenith_large_footer ul li:first-child {
+	border-top: 1px solid #373737;
+}
+.footer .widget #lang_sel_click a, .footer .widget #lang_sel_click a:visited, .footer .recent_work_widget ul li a img {
+	color: #cecece;
+	border-color: #353535;
+}
+.footer ul li {
+	padding-left: 15px;
+}
+.zenith_large_footer ul li, .widget_meta ul li, .widget_categories ul li, .widget_pages ul li, .widget_archive ul li, .widget_recent_comments ul li, .widget_recent_entries ul li, .widget_nav_menu ul li, .widget_product_categories ul li, .widget_layered_nav_filters ul li, .archives-link ul li, .widget_rss ul li {
+	padding: 11px 20px 11px 10px;
+	list-style: none;
+	display: block;
+}
+.zenith_large_footer ul li {
+	border-bottom: 1px solid #373737;
+	padding-left: 0;
+}
+.zenith_large_footer ul li:before {
+	content: "\f111";
+	font-family: fontAwesome;
+	font-size: 5px;
+	margin-left: -15px;
+	float: left;
+	padding: 0;
+	color: #bbb;
+	text-decoration: none;
+}
+
+#go_top_scroll {
+	width: 35px;
+	height: 35px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 3px;
+	position: fixed;
+	right: 8px;
+	bottom: 40px;
+	display: none;
+	text-align: center;
+	background: rgba(0,0,0,.3);
+	cursor: pointer;
+	color: #fff;
+	z-index: 9999;
+}
+.fa-angle-up:before {
+	content: "\f106";
+}
+#go_top_scroll:hover {
+	background: rgba(0,0,0,.6);
+}
+.tipsy {
+	padding: 5px;
+	font-size: 12px;
+	background-repeat: no-repeat;
+	background-image: url(../images/tipsy.gif);
+}
+.tipsy-inner {
+	padding: 5px 8px 4px 8px;
+	background-color: black;
+	color: white;
+	max-width: 200px;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.tipsy-south {
+	background-position: bottom center;
+}
+
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('fontawesome-webfont.eot?v=4.2.0');
+	src: url('fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('fontawesome-webfont.woff?v=4.2.0') format('woff'), url('fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ @media (min-width: 1200px) {
+.zenith_container, #header_wrap, .top_section_wrap, .title_header_wrap {
+	width: 1100px;
+}
+}
