@@ -4,6 +4,8 @@ body,html {
 	-webkit-tap-highlight-color:transparent
 	background:#FFF;
 }
+p{word-wrap:break-word; word-break:normal; }
+h1,h2,h3,h4,h5,h6{word-wrap:break-word; word-break:normal; }
 body {
 	font-family:'Microsoft YaHei','微软雅黑',-apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 }
