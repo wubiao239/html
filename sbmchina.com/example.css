@@ -4,7 +4,7 @@ body,html {
 	background:#FFF;
 }
 body {
-	font-family:'Microsoft YaHei','微软雅黑',-apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+	font-family:'Microsoft YaHei','Ã¥Â¾Â®Ã¨Â½Â¯Ã©â€ºâ€¦Ã©Â»â€˜',-apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 }
 ul {
 	list-style:none
@@ -463,7 +463,7 @@ to {
 .purefont .placeholder{height:2.4em;line-height:2.4em;}
 .indexfont {margin-right:15px; overflow:hidden;}
 .indexfont .placeholder{font-size:13px;}
-.navtab{height:53px;line-height:53px;font-size:16px;border-left:1px #eee solid !important;}
+.navtab{height: 45px;line-height:45px;font-size: 14px;border-left:1px #eee solid !important;}
 .navtab:first-child{border-left:none;}
 .weui-flex__item a,.weui-actionsheet__cell a{color:#999;font-size:13px;}
 .weui-actionsheet__cell a{width:100%;height:100%;display:block;}
@@ -515,20 +515,23 @@ to {
 .recommendpro{ padding:0 15px;}
 .recommendpro .weui-grid{padding:15px 10px}
 .recommendpro a:nth-of-type(3n+1){border-left:1px solid #D9D9D9;}
-.indexico,.proico,.caseico,.aboutico,.contactico{font-size:13px;}
+.indexico,.proico,.caseico,.aboutico,.contactico,.phoneico,.contactusico{font-size:13px;}
 .weui-bar__item_on p{color:#036dec !important}
 .indexico{background:url("./images/sy.png") no-repeat 7px 18px;padding: 0 10px 0 32px;}
 .proico{background:url("./images/cp.png") no-repeat 7px 18px;padding: 0 10px 0 32px;}
 .caseico{background:url("./images/al.png") no-repeat 7px 18px;padding: 0 10px 0 32px;}
 .aboutico{background:url("./images/sl.png") no-repeat 7px 18px;padding: 0 10px 0 32px;}
+.phoneico{background: url("./images/phone.png") no-repeat 7px center;padding: 0 10px 0 32px;}
+.contactusico{background: url("./images/contact-us.png") no-repeat 7px center;padding: 0 10px 0 32px;}
 .contactico{background:url("./images/lx.png") no-repeat 7px 18px;padding: 0 10px 0 32px;color:#ff8a00}
 .weui-bar__item_on .indexico{background:url("./images/sy_02.png") no-repeat 7px 18px;color:#036dec}
 .weui-bar__item_on .proico{background:url("./images/cp_02.png") no-repeat 7px 18px;color:#036dec}
 .weui-bar__item_on .caseico{background:url("./images/al_02.png") no-repeat 7px 18px;color:#036dec}
 .weui-bar__item_on .aboutico{background:url("./images/sl_02.png") no-repeat 7px 18px;color:#036dec}
 .weui-bar__item_on .contactico{background:url("./images/lx_02.png") no-repeat 7px 18px;color:#ff8a00}
-
-/*李伟版本导航*/
+.weui-bar__item_on .phoneico{background:url("./images/phone.png") no-repeat 7px 15px;}
+.weui-bar__item_on .contactusico{background:url("./images/contact-us.png") no-repeat 7px 15px;}
+/*Ã¦ÂÅ½Ã¤Â¼Å¸Ã§â€°Ë†Ã¦Å“Â¬Ã¥Â¯Â¼Ã¨Ë†Âª*/
 .toolbars-wrapper {
 	position: fixed;
 	/*bottom: 53px;*/
