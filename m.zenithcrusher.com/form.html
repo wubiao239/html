@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>form</title>
+  <!-- 引入 WeUI -->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+  <link rel="stylesheet" href="http://cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
+  <link rel="stylesheet" href="style/common.css">
+
+</head>
+
+<body ontouchstart>
+
+
+  <header >
+    <h3>Request A Quotation</h13>
+    </header> 
+    <form action="http://inquiry.zenithcrusher.com/updata_ppc.php" method="post" name="form" id="proForm">
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell">
+
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="text" required name="name" type="text" id="name" placeholder="You Name:">
+        </div>
+      </div>
+      
+      
+    </div>
+    
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell ">
+
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="telephone" placeholder="Telephone Number:" name="phone"  id="tel">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell ">
+        
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="email" required placeholder="Email:" name="email" type="text" id="email">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell ">
+        
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="text" name="company" placeholder="Company Name:">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell ">
+        
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="text" name="country" placeholder="Location Of Equipment:">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell ">
+        
+        <div class="weui-cell__bd">
+          <input class="weui-input" type="tel" name="application" placeholder="Application:">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell weui-cell_select">
+        <div class="weui-cell__bd">
+          <select class="weui-select" name="product" id="product">
+            <option selected="" value="0">Select Product</option>
+            <optgroup label="Crushing Machines">
+              <option value="1">Jaw Crusher</option>
+              <option value="2">Cone Crusher</option>
+              <option value="3">Impact Crusher</option>
+              <option value="4">Sand Making Machine</option>
+              <option value="5">Vibrating Feeder</option>
+              <option value="6">Vibrating Screen</option>
+              <option value="7">Belt Conveyor</option>
+            </optgroup>
+            <optgroup label="Grinding Mills">
+              <option value="8">0-3mm Powder Mill</option>
+              <option value="9">100-625mesh Powder Mill</option>
+              <option value="10">625-2500mesh Powder Mill</option>
+            </optgroup>
+            <optgroup label="Mobile Plants">
+              <option value="11">Wheel Mobile Crushing plant</option>
+              <option value="12">Track-type mobile crushing plant</option>
+            </optgroup>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="weui-cells weui-cells_form">
+      <div class="weui-cell weui-cell_select">
+        <div class="weui-cell__bd">
+          <select class="weui-select" id="material">
+            <option selected="" value="0">Select Material</option>
+            <option value="1">Limestone</option>
+            <option value="2">Calcite</option>
+            <option value="3">Coal Powder</option>
+            <option value="4">Gypsum</option>
+            <option value="5">Dolomite</option>
+            <option value="6">Barite</option>
+            <option value="7">Marble</option>
+            <option value="8">Talc</option>
+            <option value="9">Basalt</option>
+            <option value="10">Granite</option>
+            <option value="11">Building Wastes</option>
+            <option value="12">Pebble</option>
+            <option value="13">Tuff</option>
+            <option value="14">Tailing</option>
+            <option value="15">Feldspar</option>
+            <option value="16">&gt;&gt;Others</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="weui-cells weui-cells_form">
+     <div class="weui-cell">
+       <div class="weui-cell__bd">
+         <textarea class="weui-textarea" placeholder="Message:" name="content"  rows="3" id="formMsg"></textarea>
+         <div class="weui-textarea-counter"><span>0</span>/200</div>
+       </div>
+     </div>
+   </div>
+
+   
+
+   <div class="weui-btn-area">
+    <input class="weui-btn bgc-e34218" type="submit">submit</a>
+  </div>
+  </form>
+  <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
+
+
+
+</body>
+
+
+</html>
