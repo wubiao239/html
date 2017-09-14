@@ -7,7 +7,7 @@ document.writeln("  <form action=\"http://inquiry.zenithcrusher.com/updata_ppc.p
 document.writeln("  <div class=\"weui-cells weui-cells_form border-all-solid\" > ");
 document.writeln("    <div class=\"weui-cell \"> ");
 document.writeln("      <div class=\"weui-cell__bd\"> ");
-document.writeln("        <input class=\"weui-input fs14\" type=\"text\" required name=\"name\" type=\"text\" id=\"name\" placeholder=\"You Name:\"> ");
+document.writeln("        <input class=\"weui-input fs14\" type=\"text\" required name=\"name\" type=\"text\" id=\"name\" placeholder=\"*You Name:\"> ");
 document.writeln("      </div> ");
 document.writeln("    </div> ");
 document.writeln("  </div> ");
@@ -21,7 +21,7 @@ document.writeln("  </div> ");
 document.writeln("  <div class=\"weui-cells weui-cells_form border-all-solid\"> ");
 document.writeln("    <div class=\"weui-cell \"> ");
 document.writeln("      <div class=\"weui-cell__bd\"> ");
-document.writeln("        <input class=\"weui-input fs14\" type=\"email\" required placeholder=\"Email:\" name=\"email\" id=\"email\"> ");
+document.writeln("        <input class=\"weui-input fs14\" type=\"email\" required placeholder=\"*Email:\" name=\"email\" id=\"email\"> ");
 document.writeln("      </div> ");
 document.writeln("    </div> ");
 document.writeln("  </div> ");
@@ -107,7 +107,44 @@ document.writeln("     </div> ");
 document.writeln("   </div> ");
 document.writeln(" </div> ");
 document.writeln(" <div class=\"weui-btn-area \"> ");
-document.writeln("	<input class=\"weui-btn bgc-e34218\" type=\"Submit\" value=\"submit\" /> ");
+document.writeln("	<input class=\"weui-btn bgc-e34218\" type=\"Submit\" value=\"submit\" onclick=\"checkForm()\"/> ");
 document.writeln("	</div> ");
 document.writeln("</form> ");
 document.writeln("</section> ");
+function checkForm(){    
+if(document.getElementById("name").value == ""){
+$.toptip("Please Write Your Name!")
+document.getElementById("name").focus();
+return false;
+}
+if(document.getElementById("email").value == ""){
+$.toptip("Please Write Your Email!")
+document.getElementById("email").focus();
+return false;
+}
+else if(document.getElementById("email").value.indexOf("@") < 0 || document.getElementById("email").value.indexOf(".") < 0){
+$.toptip("Please Check Your Email Format!")
+document.getElementById("email").focus();
+return false;
+}
+if(document.getElementById("country").value == ""){
+$.toptip("Please Write Your Country!")
+document.getElementById("country").focus();
+return false;
+}    
+if(document.getElementById("formMsg").value == ""){
+$.toptip("Please Write Your Detailed Message!")
+document.getElementById("formMsg").focus();
+return false;
+}
+else if(document.getElementById("formMsg").value.length < 5){
+	$.toptip("You Must Write no less than 5 Characters!")
+	document.getElementById("formMsg").focus()
+	return false;
+}
+if(!document.getElementById("construction").checked&&!document.getElementById("mining").checked){
+$.toptip("Please Select Your Application!")
+return false;
+}
+       
+}   

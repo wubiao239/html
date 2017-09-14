@@ -16,14 +16,21 @@ $(function(){
 
  $(document).ready(function(){
 	  $(".mapIco").mouseover(function(){
-	      $(this).css("background","url(http://static.zenithcrusher.com/d/file/images/contact/mapicon1.png)");
-	      $(this).parents().next(".info").css("display","block");
-	      $(".office-info").css("width","211px");
-	      $(".mapIco").mouseout(function(){
-	          $(this).css("background","url(http://static.zenithcrusher.com/d/file/images/contact/mapicon.png)");
-	          $(".info").css("display","none");
-	          $(".office-info").css("width","auto");
-	      });
+	      	$(this).css("background","url(http://static.zenithcrusher.com/d/file/images/contact/mapicon1.png)");
+	      	var p=$(this).parents().next(".info").text();
+	     	$.toast(p, "text");
+	      	$(".mapIco").mouseout(function(){
+	          	$(this).css("background","url(http://static.zenithcrusher.com/d/file/images/contact/mapicon.png)");
+	          
+	      	});
 	  });
-})
+});
+
+$(document).ready(function(){ 
+	$('.titlebar-select').change(function(){ 
+	 
+	var p=$(this).children('option:selected').val(); 
+	window.location.href=p; 
+	}) 
+});
 		
