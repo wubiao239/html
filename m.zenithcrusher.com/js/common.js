@@ -16,11 +16,11 @@ $(function(){
 
  $(document).ready(function(){
 	  $(".mapIco").mouseover(function(){
-	      	$(this).css("background","url(http://static.zenithcrusher.com/d/file/images/contact/mapicon1.png)");
+	      	$(this).css("background","url(/images/contact/mapicon1.png)");
 	      	var p=$(this).parents().next(".info").text();
 	     	$.toast(p, "text");
 	      	$(".mapIco").mouseout(function(){
-	          	$(this).css("background","url(http://static.zenithcrusher.com/d/file/images/contact/mapicon.png)");
+	          	$(this).css("background","url(/images/contact/mapicon.png)");
 	          
 	      	});
 	  });
